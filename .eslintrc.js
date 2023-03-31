@@ -11,7 +11,15 @@ module.exports = {
     parser: 'babel-eslint',
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-console': 'warn',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/named": "off",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": ["error", { "code": 300 }],
+    "prefer-destructuring": ["error", {"object": false, "array": false}],
+    "no-restricted-syntax": ["error", "BinaryExpression[operator='in']"],
+    'import/no-cycle': 0,
   },
 };

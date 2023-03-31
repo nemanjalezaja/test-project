@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "first_name": "admin",
+      "last_name": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "id": 1,
+      "followers": [
+        2,
+        4
+      ],
+      "following": [
+        2
+      ]
+    },
+    {
+      "first_name": "Nemanja",
+      "last_name": "Ležaja",
+      "email": "nemanja.lezaja@gmail.com",
+      "password": "nemanja",
+      "id": 2,
+      "followers": [
+        1,
+        3,
+        5
+      ],
+      "following": [
+        1
+      ]
+    },
+    {
+      "first_name": "test",
+      "last_name": "test",
+      "email": "test@tes123.com",
+      "password": "test123",
+      "id": 3,
+      "followers": [],
+      "following": [
+        2
+      ]
+    },
+    {
+      "first_name": "test123",
+      "last_name": "test123",
+      "email": "nemanja.test@test.com",
+      "password": "test",
+      "id": 4,
+      "followers": [
+        5
+      ],
+      "following": [
+        2,
+        1
+      ]
+    },
+    {
+      "first_name": "Novi ",
+      "last_name": "Nalog",
+      "email": "poslednji@put.com",
+      "password": "prosao",
+      "followers": [],
+      "following": [
+        4,
+        2
+      ],
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptates sed ullam esse assumenda nisi dolores a quisquam saepe, eius eveniet mollitia? A enim quia eveniet saepe totam neque repudiandae.",
+      "author": "admin admin",
+      "author_id": 1,
+      "liked_by": [
+        2
+      ],
+      "created_at": 1680271360038,
+      "id": 1
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "CREATE_POST\nCREATE_POST\nCREATE_POST",
+      "author": "admin admin",
+      "author_id": 1,
+      "liked_by": [
+        2,
+        3,
+        4
+      ],
+      "created_at": 1680271415164,
+      "id": 2
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatem rem maxime reiciendis aspernatur officia commodi! Nostrum voluptatum maxime explicabo, est, eum voluptatibus perspiciatis blanditiis, rem excepturi autem non ullam.",
+      "author": "admin admin",
+      "author_id": 1,
+      "liked_by": [
+        2,
+        3
+      ],
+      "created_at": 1680271580237,
+      "id": 3
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "nesto nije uredu sa vremenom",
+      "author": "Nemanja Ležaja",
+      "author_id": 2,
+      "liked_by": [
+        1
+      ],
+      "created_at": 1680280785866,
+      "id": 4
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, similique.",
+      "author": "test123 test123",
+      "author_id": 4,
+      "liked_by": [],
+      "created_at": 1680286827866,
+      "id": 5
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, similique.\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, similique.\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, similique.",
+      "author": "test123 test123",
+      "author_id": 4,
+      "liked_by": [],
+      "created_at": 1680286836448,
+      "id": 6
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "moment sredjeno je vreme",
+      "author": "test123 test123",
+      "author_id": 4,
+      "liked_by": [],
+      "created_at": 1680286897,
+      "id": 7
+    },
+    {
+      "type": "text",
+      "img_url": "",
+      "text": "poslednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com\nposlednji@put.com poslednji@put.com\nposlednji@put.com poslednji@put.com poslednji@put.com poslednji@put.com",
+      "author": "Novi  Nalog",
+      "author_id": 5,
+      "liked_by": [],
+      "created_at": 1680287077,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
